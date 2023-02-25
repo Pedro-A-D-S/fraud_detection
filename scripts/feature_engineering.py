@@ -40,7 +40,7 @@ X_test_processed = pd.DataFrame(X_test_processed,
                                 list(preprocessing_pipeline.named_transformers_['categorical'].get_feature_names_out(categorical_features)))
 
 # Save the preprocessed data and target variables as CSV files
-X_train_processed.to_csv('../data/preprocessed_data/X_train.csv', index = False)
-X_test_processed.to_csv('../data/preprocessed_data/X_test.csv', index = False)
-y_train.to_csv('../data/preprocessed_data/y_train.csv', index = False)
-y_test.to_csv('../data/preprocessed_data/y_test.csv', index = False)
+X_train_processed.to_csv('../data/preprocessed/X_train.csv', index = False)
+X_test_processed.to_csv('../data/preprocessed/X_test.csv', index = False)
+y_train.to_csv('../data/preprocessed/y_train.csv', index = False)
+y_test.to_csv('../data/preprocessed/y_test.csv', index = False)
