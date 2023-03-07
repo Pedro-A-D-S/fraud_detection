@@ -15,10 +15,10 @@ y_test = pd.read_csv('../data/preprocessed/y_test.csv')
 rforest = RandomForestClassifier(random_state=75)
 
 # Define the range of hyperparameters to test
-n_estimators = np.arange(20, 2000, step=20) # Number of trees in the forest
+n_estimators = np.arange(20, 200, step=20) # Number of trees in the forest
 criterion = ["gini", "entropy"] # Function to measure the quality of a split
 max_features = ["auto", "sqrt", "log2"] # Number of features to consider when looking for the best split
-max_depth = list(np.arange(2, 200, step=1)) # Maximum depth of the tree
+max_depth = list(np.arange(2, 20, step=1)) # Maximum depth of the tree
 min_samples_split = np.arange(2, 100, step=2) # Minimum number of samples required to split an internal node
 min_samples_leaf = [1, 2, 4, 6, 8, 10] # Minimum number of samples required to be at a leaf node
 bootstrap = [True, False] # Whether bootstrap samples are used when building trees
