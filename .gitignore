@@ -1,2 +1,4 @@
 data/etl/test.csv
 data/etl/train.csv
+data/preprocessed/X_test.csv
+data/preprocessed/X_train.csv
