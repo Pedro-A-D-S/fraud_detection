@@ -1,0 +1,5 @@
+2023-06-25 13:00:05,956 - ETL.py - load_data - INFO - Data loaded successfully.
+2023-06-25 13:00:05,963 - ETL.py - reorder_columns - INFO - Columns reordered successfully.
+2023-06-25 13:00:05,969 - ETL.py - rename_columns - INFO - Columns renamed successfully.
+2023-06-25 13:00:05,994 - ETL.py - split_data - INFO - Data split successfully.
+2023-06-25 13:00:07,119 - ETL.py - save_data - INFO - Data saved successfully.

@@ -1,0 +1,10 @@
+2023-06-25 13:43:49,308 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-06-25 13:43:49,311 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-06-25 13:43:49,329 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-06-25 13:43:49,330 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-06-25 13:43:49,376 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-06-25 13:43:49,386 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-06-25 13:43:50,250 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: data/preprocessed/X_train.csv
+2023-06-25 13:43:50,445 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: data/preprocessed/X_test.csv
+2023-06-25 13:43:50,506 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: data/preprocessed/y_train.csv
+2023-06-25 13:43:50,523 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: data/preprocessed/y_test.csv

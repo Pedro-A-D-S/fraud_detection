@@ -1,0 +1,21 @@
+column_order:
+  - isFraud
+  - step
+  - type
+  - amount
+  - oldbalanceOrg
+  - newbalanceOrig
+  - oldbalanceDest
+  - newbalanceDest
+
+column_names:
+  {
+    'isFraud': 'fraude',
+    'step':'tempo',
+    'type':'tipo',
+    'amount':'valor',
+    'oldbalanceOrg':'saldo_inicial_c1',
+    'newbalanceOrig':'novo_saldo_c1',
+    'oldbalanceDest':'saldo_inicial_c2',
+    'newbalanceDest':'novo_saldo_c2',
+    }
