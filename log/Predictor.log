@@ -1,0 +1,4 @@
+2023-06-25 19:09:58,340 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-06-25 19:09:58,394 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-06-25 19:09:58,418 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-06-25 19:09:58,440 - Predictor.py - save_predictions - INFO - Predictions correctly saved.

@@ -2,7 +2,7 @@ import pandas as pd
 import yaml
 import logging
 
-logging.basicConfig(level=logging.INFO, filename = 'log/ETL-log.log', format = '%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, filename = 'log/ETL.log', format = '%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
 
 
 class ETL:
@@ -72,7 +72,7 @@ class ETL:
             logging.error('Columns were not renamed successfully.')
             return None
 
-    def split_data(self, df: pd.DataFrame, train_frac: float = 0.8, random_state: int = 42) -> pd.DataFrame:
+    def split_data(self, df: pd.DataFrame, train_frac: float = 0.8, random_state: int = 42) -> tuple:
         """
         Splits the input DataFrame into training and test sets based on a specified fraction and random state.
 
@@ -94,7 +94,7 @@ class ETL:
         except:
             logging.error('Data was not split.')
 
-    def save_data(self, train_file: pd.DataFrame, test_file: pd.DataFrame) -> pd.DataFrame:
+    def save_data(self, train_file: pd.DataFrame, test_file: pd.DataFrame) -> None:
         """
         Saves the training and test DataFrames to the specified files.
 

@@ -1,0 +1,16 @@
+2023-06-25 18:49:33,301 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-06-25 18:49:33,823 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-06-25 18:49:33,823 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-06-25 18:54:29,794 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-06-25 18:54:30,008 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-06-25 18:54:30,008 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-06-25 18:55:30,581 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-06-25 18:55:30,582 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-06-25 18:55:31,493 - ModelTraining.py - save_model - INFO - Model saved successfully.
+2023-06-25 18:56:19,727 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-06-25 18:56:19,950 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-06-25 18:56:19,950 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-06-25 18:57:19,043 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-06-25 18:57:19,044 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-06-25 18:57:19,914 - ModelTraining.py - save_model - INFO - Model saved successfully.
+2023-06-25 18:57:19,932 - ModelTraining.py - <module> - INFO - Accuracy: 0.9994, Recall: 0.4762, Precision: 0.8333, F1 Score: 0.6061

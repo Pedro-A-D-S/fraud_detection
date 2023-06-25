@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
-logging.basicConfig(level = logging.INFO, filename = 'log/FeatureEngineering-log.log', format = '%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
+logging.basicConfig(level = logging.INFO, filename = 'log/FeatureEngineering.log', format = '%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
 
 class FeatureEngineering:
     def __init__(self, train_file: pd.DataFrame, test_file: pd.DataFrame):
