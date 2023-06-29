@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from typing import Tuple
 
 logging.basicConfig(level = logging.INFO, filename = 'log/FeatureEngineering.log', format = '%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
 
@@ -11,7 +12,7 @@ class FeatureEngineering:
         self.train_file = train_file
         self.test_file = test_file
         
-    def load_data(self) -> tuple:
+    def load_data(self) -> Tuple[pd.DataFrame, pd.DataFrame, pd.Series, pd.Series]:
         """
         Loads the train and test files, split them into featuires and labels,
         and returns them as separate variables.

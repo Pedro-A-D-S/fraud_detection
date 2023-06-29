@@ -25154,3 +25154,6 @@ my_etl_app.egg-info/SOURCES.txt
 my_etl_app.egg-info/top_level.txt
 .fraud_detection/Lib/site-packages/easy-install.pth
 .fraud_detection/Lib/site-packages/my-etl-app.egg-link
+.fraud_detection/Lib/site-packages/my-featureengineering-app.egg-link
+.fraud_detection/Lib/site-packages/my-modeltraining-app.egg-link
+.fraud_detection/Lib/site-packages/scipy/stats/__pycache__/_page_trend_test.cpython-310-pytest-7.4.0.pyc
