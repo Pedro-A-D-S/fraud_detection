@@ -54,6 +54,12 @@ def test_load_data():
     incorrect_format_file = 'incorrect_format.parquet'
     df_incorrect_format = etl.load_data(data_file = incorrect_format_file)
     assert df_incorrect_format is None
+    
+    # Test case for loading an empty file
+    empty_file = 'empty_file.csv'
+    pd.DataFrame().to_csv(empty_file, index=False)
+    df_empty = etl.load_data(data_file=empty_file)
+    assert df_empty is not None and (isinstance(df_empty, pd.DataFrame) and df_empty.empty)
 
 def test_reorder_columns():
     """

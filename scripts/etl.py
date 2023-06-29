@@ -20,7 +20,7 @@ class ETL:
             self.column_names = config['column_names']
         return config
 
-    def load_data(self, data_file: str) -> pd.DataFrame:
+    def load_csv_data(self, data_file: str) -> pd.DataFrame:
         """
         Loads the data from a CSV file and returns it as a pandas DataFrame.
 
