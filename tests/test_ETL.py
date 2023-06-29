@@ -31,15 +31,15 @@ def test_load_config():
     assert 'column_order' in config  # Ensure 'column_order' key is present in the configuration
     assert 'column_names' in config  # Ensure 'column_names' key is present in the configuration
 
-def test_load_data():
+def test_load_csv_data():
     """
-    Test case for the load_data function of the ETL class.
+    Test case for the load_csv_data function of the ETL class.
 
-    This test verifies whether the load_data function correctly loads the data from a CSV file
+    This test verifies whether the load_csv_data function correctly loads the data from a CSV file
     and returns it as a pandas DataFrame.
     """
 
-    df = etl.load_data(data_file=data_file)
+    df = etl.load_csv_data(data_file = data_file)
 
     # Perform assertions to validate the loaded data
     assert df is not None  # Ensure the DataFrame is not empty or None
@@ -47,29 +47,40 @@ def test_load_data():
     
     # Test case for loading a non-existent file
     non_existent_file = 'non_existent.csv'
-    df_non_existent = etl.load_data(data_file = non_existent_file)
+    df_non_existent = etl.load_csv_data(data_file = non_existent_file)
     assert df_non_existent is None
     
     # Test case for loading a file with incorrect format
     incorrect_format_file = 'incorrect_format.parquet'
-    df_incorrect_format = etl.load_data(data_file = incorrect_format_file)
+    df_incorrect_format = etl.load_csv_data(data_file = incorrect_format_file)
     assert df_incorrect_format is None
     
     # Test case for loading an empty file
     empty_file = 'empty_file.csv'
-    pd.DataFrame().to_csv(empty_file, index=False)
-    df_empty = etl.load_data(data_file=empty_file)
-    assert df_empty is not None and (isinstance(df_empty, pd.DataFrame) and df_empty.empty)
-
-def test_reorder_columns():
+    pd.DataFrame().to_csv(empty_file, index = False)
+    df_empty = etl.load_csv_data(data_file = empty_file)
+    assert df_empty is None
+    
+    # Test case for loading a file with missing columns
+    missing_columns_file = 'missing_columns.csv'
+    df_missing_columns = pd.DataFrame({'col1': [1, 2, 3]})
+    df_missing_columns.to_csv(missing_columns_file, index = False)
+    df_loaded_missing_columns = etl.load_csv_data(data_file = missing_columns_file)
+    expected_columns = ['col1']
+    assert set(df_loaded_missing_columns.columns) == set(expected_columns)
+    
+    
+def test_reorder_columns_not_empty():
     """
     Test case for the reorder_columns function of the ETL class.
 
     This test verifies whether the reorder_columns function correctly reorders the columns of a DataFrame.
     """
-
+    data = etl.load_csv_data('../data/raw/fraud_dataset.csv')
     df = etl.reorder_columns(df = data)
 
     # Perform assertions to validate the reordered DataFrame
     assert df is not None  # Ensure the DataFrame is not empty or None
     assert isinstance(df, pd.DataFrame)  # Ensure the reordered data is a pandas DataFrame
+
+

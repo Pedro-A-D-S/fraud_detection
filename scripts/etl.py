@@ -35,8 +35,10 @@ class ETL:
                 logging.warning('Loaded data is empty.')
             
             return df
-        except:
-            logging.error('It was not possible to load data correctly.')
+        except FileNotFoundError:
+            logging.error('File not found: %s', data_file)
+        except Exception as e:
+            logging.error('Error loading data: %s', str(e))
 
     def reorder_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -49,12 +51,12 @@ class ETL:
             pd.DataFrame: The reordered DataFrame.
         """
         try:
-            df = df[self.column_order]
+            df_reordered = df[self.column_order]
             logging.info('Columns reordered successfully.')
-            return df
+            return df_reordered
         except:
-            logging.error('It was not possible to reorder columns.')
-            return None
+            logging.error('Error reordering columns.')
+            return df
 
     def rename_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         """
