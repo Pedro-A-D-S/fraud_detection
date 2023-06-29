@@ -6,13 +6,12 @@ logging.basicConfig(level=logging.INFO, filename = 'log/ETL.log', format = '%(as
 
 
 class ETL:
-    def __init__(self, data_file: pd.DataFrame):
-        self.data_file = data_file
+    def __init__(self):
         self.train = None
         self.test = None
         self.column_order = None
         self.column_names = None
-        self.load_config('configuration/config.yaml')
+        self.load_config('../configuration/config.yaml')
 
     def load_config(self, config_file: str) -> dict:
         with open(config_file, 'r') as f:
@@ -21,7 +20,7 @@ class ETL:
             self.column_names = config['column_names']
         return config
 
-    def load_data(self) -> pd.DataFrame:
+    def load_data(self, data_file: str) -> pd.DataFrame:
         """
         Loads the data from a CSV file and returns it as a pandas DataFrame.
 
@@ -29,12 +28,15 @@ class ETL:
         pd.DataFrame: The loaded data as a pandas DataFrame.
         """
         try:
-            df = pd.read_csv(self.data_file)
+            df = pd.read_csv(data_file)
             logging.info('Data loaded successfully.')
+            
+            if df.empty:
+                logging.warning('Loaded data is empty.')
+            
             return df
         except:
             logging.error('It was not possible to load data correctly.')
-            return None
 
     def reorder_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         """
