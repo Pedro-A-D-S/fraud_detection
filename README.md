@@ -23,6 +23,50 @@
     <strong>scripts:</strong> Contains scripts for running different parts of the project.
 </p>
 
+```
+├── configuration
+│   ├── config.yaml
+│   └── hyperparameters.yaml
+├── data
+│   ├── etl
+│   │   ├── test.csv
+│   │   └── train.csv
+│   ├── images
+│   │   └── SAFEGUARD.png
+│   ├── predictions
+│   │   └── predictions.csv
+│   ├── preprocessed
+│   │   ├── X_test.csv
+│   │   ├── X_train.csv
+│   │   ├── y_test.csv
+│   │   └── y_train.csv
+│   └── raw
+│       └── fraud_dataset.csv
+├── LICENSE
+├── log
+│   ├── ETL.log
+│   ├── FeatureEngineering.log
+│   ├── ModelTraining.log
+│   └── Predictor.log
+├── model
+│   ├── model_random_forest_1.0.pkl
+│   └── model_random_forest_2.0.pkl
+├── my_etl_app.egg-info
+│   ├── dependency_links.txt
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   └── top_level.txt
+├── notebooks
+│   └── fraud_detection.ipynb
+├── README.md
+├── requirements.txt
+└── scripts
+    ├── etl.py
+    ├── FeatureEngineering.py
+    ├── ModelTraining.py
+    └── Predictor.py
+```
+
 
 
 <p>
