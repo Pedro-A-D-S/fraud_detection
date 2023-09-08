@@ -2,7 +2,7 @@
 <img src="data/images/SAFEGUARD.png" alt="SafeGuard Bank Logo" width="530" />
 <p>Welcome to SafeGuard Bank, a leading financial institution committed to ensuring the security and integrity of your transactions. Our cutting-edge fraud detection system employs advanced machine learning algorithms and state-of-the-art data preprocessing techniques to protect your assets and provide you with peace of mind.</p>
 <p>In this project, we have developed a robust fraud detection system specifically designed for SafeGuard Bank. By harnessing the power of various machine learning algorithms and leveraging sophisticated data preprocessing techniques, we have created a highly accurate and efficient system that detects fraudulent activities.</p>
-<p>Our team of data scientists and engineers has meticulously fine-tuned the system by performing hyperparameter tuning, enabling it to deliver precise and reliable results. Through extensive experimentation and analysis using Jupyter notebooks, we have identified the random forest algorithm as the optimal choice for fraud detection at SafeGuard Bank.</p>
+<p>Our team of data scientists and engineers has meticulously fine-tuned the system by performing hyperparameter tuning, enabling it to deliver precise and reliable results. Through extensive experimentation and analysis using Jupyter notebooks, we have identified the random forest algorithm as the optimal choice for fraud detection at SafeGuard Bank..</p>
 
 <p>
     <strong>Project Organization</strong>
