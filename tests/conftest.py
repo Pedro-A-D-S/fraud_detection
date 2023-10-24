@@ -1,9 +1,11 @@
+import joblib
 import pandas as pd
 import pytest
 
 from scripts.etl import ETL
 from scripts.FeatureEngineering import FeatureEngineering
 from scripts.ModelTraining import ModelTraining
+from scripts.Predictor import Predictor
 
 
 @pytest.fixture(scope="session")
@@ -96,3 +98,23 @@ def model_training_instance() -> ModelTraining:
     y_test_file = "data/preprocessed/y_test.csv"
 
     return ModelTraining(X_train_file, X_test_file, y_train_file, y_test_file)
+
+@pytest.fixture
+def test_model(tmp_path):
+    model_path = tmp_path / 'test_model.pkl'
+    # Create a test model (you can replace this with your actual model creation)
+    test_model = joblib.dump('test_model', model_path)
+    return str(model_path)
+
+@pytest.fixture
+def test_data(tmp_path):
+    data_path = tmp_path / 'test_data.csv'
+    # Create a test data CSV file (you can replace this with your actual test data)
+    test_data = pd.DataFrame({'feature1': [1, 2, 3], 'feature2': [4, 5, 6]})
+    test_data.to_csv(data_path, index=False)
+    return str(data_path)
+
+# Define a fixture for loading a test Predictor instance
+@pytest.fixture
+def test_predictor(test_model):
+    return Predictor(test_model)
