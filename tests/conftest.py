@@ -24,7 +24,6 @@ def fe_instance(tmp_path: pytest.TempPath) -> FeatureEngineering:
     """
     train_file = tmp_path / "train.csv"
     test_file = tmp_path / "test.csv"
-    numeric_features = ["tempo", "valor", "saldo_inicial_c1", "saldo_inicial_c2", "novo_saldo_c2"]
 
     # Use descriptive variable names and consistent typehints
     train_data = {
