@@ -3,3 +3,106 @@
 2023-06-25 13:00:05,969 - ETL.py - rename_columns - INFO - Columns renamed successfully.
 2023-06-25 13:00:05,994 - ETL.py - split_data - INFO - Data split successfully.
 2023-06-25 13:00:07,119 - ETL.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:37:01,490 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,513 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,515 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,518 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,524 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:37:01,527 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:38:15,466 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,468 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,470 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,472 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,478 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:38:15,481 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:39:32,270 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,273 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,275 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,277 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,283 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:39:32,287 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:42:11,732 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,734 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,736 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,739 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,745 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:42:11,748 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:43:35,162 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:43:35,273 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,276 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,278 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,280 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,286 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:43:35,289 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:46:05,792 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:46:05,906 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,909 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,911 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,914 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,920 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:46:05,923 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:49:55,481 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:49:55,589 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,591 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,593 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,595 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,599 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:49:55,603 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:50:32,735 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:50:32,897 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:50:33,046 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,048 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,050 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,052 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,057 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:50:33,060 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:51:51,592 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:51:51,593 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:51:51,711 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,713 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,716 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,718 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,724 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:51:51,728 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:53:41,325 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:53:41,325 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:53:41,326 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:53:41,432 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,434 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,436 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,438 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,442 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:53:41,445 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:57:21,024 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:57:21,024 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,024 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,024 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,025 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,133 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,135 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,137 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,139 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,143 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:57:21,146 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:20,153 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:58:20,153 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:20,153 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:20,153 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:20,267 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,269 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,270 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,273 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,277 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:20,280 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:38,617 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:58:38,618 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:38,618 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:38,618 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:38,771 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:58:38,774 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 19:58:38,782 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,784 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,786 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,788 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,793 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:38,795 - etl.py - save_data - INFO - Data saved successfully.

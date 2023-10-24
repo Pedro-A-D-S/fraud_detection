@@ -5,13 +5,26 @@ from scripts.etl import ETL
 from scripts.FeatureEngineering import FeatureEngineering
 from scripts.ModelTraining import ModelTraining
 
-# Use consistent typehints for all parameters and return values
-
 
 @pytest.fixture(scope="session")
 def etl_instance() -> ETL:
     """Returns an instance of the ETL class."""
-    return ETL()
+    return ETL(data_file='data/raw/fraud_dataset.csv')
+
+@pytest.fixture(scope="session")
+def etl_instance_empty() -> ETL:
+    """Returns an instance of the ETL class."""
+    return ETL(data_file='empty_file.csv')
+
+@pytest.fixture(scope="session")
+def etl_instance_incorrect_type() -> ETL:
+    """Returns an instance of the ETL class."""
+    return ETL(data_file='test.parquet')
+
+@pytest.fixture(scope="session")
+def etl_instance_empty_file() -> ETL:
+    """Returns an instance of the ETL class."""
+    return ETL(data_file='empty_file.csv')
 
 
 @pytest.fixture(scope="session")
