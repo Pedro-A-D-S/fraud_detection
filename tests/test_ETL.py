@@ -32,10 +32,10 @@ def test_load_config(etl_instance):
 
 
 def test_load_csv_data(
-    etl_instance,
-    etl_instance_empty,
-    etl_instance_incorrect_type,
-    etl_instance_empty_file):
+        etl_instance,
+        etl_instance_empty,
+        etl_instance_incorrect_type,
+        etl_instance_empty_file):
     """
     Test case for the load_csv_data function of the ETL class.
 
