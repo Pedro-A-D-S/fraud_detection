@@ -12,6 +12,7 @@ logging.basicConfig(
     filename='log/FeatureEngineering.log',
     format='%(asctime)s - %(filename)s - %(funcName)s - %(levelname)s - %(message)s')
 
+
 def test_load_data(fe_instance):
     """
     Test case for the load_data method of the FeatureEngineering class.
@@ -19,25 +20,26 @@ def test_load_data(fe_instance):
     This test verifies whether the load_data method correctly loads the train and test files,
     splits them into features and labels, and returns them as separate variables.
     """
-    
+
     X_train, X_test, y_train, y_test = fe_instance.load_data()
-    
+
     # Check if the returned values are not None
     assert X_train is not None
     assert X_test is not None
     assert y_train is not None
     assert y_test is not None
-    
+
     # Check if the returned valeus are of the correct types
     assert isinstance(X_train, pd.DataFrame)
     assert isinstance(X_test, pd.DataFrame)
     assert isinstance(y_train, pd.Series)
     assert isinstance(y_test, pd.Series)
-    
+
     # Check if the number of features and labels is correct
     assert X_train.shape[0] == y_train.shape[0]
     assert X_test.shape[0] == y_test.shape[0]
-    
+
+
 def test_preprocess_data(fe_instance):
     """
     Test case for the preprocess_data method of the FeatureEngineering class.
@@ -65,27 +67,30 @@ def test_preprocess_data(fe_instance):
         'novo_saldo_c2': [4400, 5500, 6600],
         'tipo': ['D', 'E', 'F']
     })
-    
-    nnumeric_features = ['tempo', 'valor', 'saldo_inicial_c1', 'novo_saldo_c1', 'saldo_inicial_c2', 'novo_saldo_c2']
+
+    nnumeric_features = ['tempo', 'valor', 'saldo_inicial_c1',
+                         'novo_saldo_c1', 'saldo_inicial_c2', 'novo_saldo_c2']
     categorical_features = ['tipo']
-    
-    X_train_processed, X_test_processed = fe_instance.preprocess_data(X_train, X_test, nnumeric_features, categorical_features)
-    
+
+    X_train_processed, X_test_processed = fe_instance.preprocess_data(
+        X_train, X_test, nnumeric_features, categorical_features)
+
     # Check if the returned valures are not None
     assert X_train_processed is not None
     assert X_test_processed is not None
-    
+
     # Check if the returned valures are of the correct types
     assert isinstance(X_train_processed, np.ndarray)
     assert isinstance(X_test_processed, np.ndarray)
-    
+
     # Check if the number of features is the same
     assert X_train_processed.shape[1] == X_test_processed.shape[1]
-    
+
     # Check if the number of samples is the same
     assert X_train_processed.shape[0] == X_train.shape[0]
     assert X_test_processed.shape[0] == X_test.shape[0]
-    
+
+
 def test_save_preprocessed_data(fe_instance, tmp_path):
     """
     Test case for the save_preprocessed_data method of the FeatureEngineering class.
