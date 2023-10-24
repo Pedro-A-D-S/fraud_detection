@@ -21,7 +21,12 @@
     <strong>model:</strong> Holds the trained model and related files.
     <br>
     <strong>scripts:</strong> Contains scripts for running different parts of the project.
+    <br>
+    <strong>tests:</strong> Holds the mockup datasets, fixtures and tests for each class.
+    <br>
 </p>
+
+## Project Structure
 
 ```
 ├── configuration
@@ -42,6 +47,7 @@
 │   │   └── y_train.csv
 │   └── raw
 │       └── fraud_dataset.csv
+├── Makefile
 ├── LICENSE
 ├── log
 │   ├── ETL.log
@@ -60,13 +66,50 @@
 │   └── fraud_detection.ipynb
 ├── README.md
 ├── requirements.txt
-└── scripts
-    ├── etl.py
-    ├── FeatureEngineering.py
-    ├── ModelTraining.py
-    └── Predictor.py
+├── scripts
+│   ├── __init__.py
+│   ├── etl.py
+│   ├── FeatureEngineering.py
+│   ├── ModelTraining.py
+│   └── Predictor.py
+└── tests
+    ├── __init__.py
+    ├── conftest.py
+    ├── empty_file.csv
+    ├── missing_columns.csv
+    └── test_ETL.py
+    └── test_feature_engineering.py
+    └── test_model_training.py
+    └── test_model_predictor.py
+    └── test.parquet
 ```
 
+<p>
+    <strong>Step-by-Step Guide:</strong>
+    <br>
+    Follow these steps to test your project and use the provided Makefile:
+    <br>
+    <ol>
+        <li><strong>Initialize the Environment:</strong>
+            <br>
+            To set up your environment, run the following command:
+            <pre>make init</pre>
+            This will install the required dependencies for your project.
+        </li>
+        <li><strong>Run Tests:</strong>
+            <br>
+            You can run tests using the following command:
+            <pre>make test</pre>
+            This command will execute your test suite using pytest, providing detailed information about test results.
+        </li>
+    </ol>
+</p>
+
+<p>
+    <strong>Testing Framework:</strong>
+    <br>
+    We use pytest, a popular Python testing framework, to perform unit testing on our project. The "tests" folder contains various test files that validate the functionality of different components in our fraud detection system.
+</p>
 
 
 <p>

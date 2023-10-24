@@ -3,3 +3,349 @@
 2023-06-25 13:00:05,969 - ETL.py - rename_columns - INFO - Columns renamed successfully.
 2023-06-25 13:00:05,994 - ETL.py - split_data - INFO - Data split successfully.
 2023-06-25 13:00:07,119 - ETL.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:37:01,490 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,513 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,515 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,518 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:37:01,524 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:37:01,527 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:38:15,466 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,468 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,470 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,472 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:38:15,478 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:38:15,481 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:39:32,270 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,273 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,275 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,277 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:39:32,283 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:39:32,287 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:42:11,732 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,734 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,736 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,739 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:42:11,745 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:42:11,748 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:43:35,162 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:43:35,273 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,276 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,278 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,280 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:43:35,286 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:43:35,289 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:46:05,792 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:46:05,906 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,909 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,911 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,914 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:46:05,920 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:46:05,923 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:49:55,481 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:49:55,589 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,591 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,593 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,595 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:49:55,599 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:49:55,603 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:50:32,735 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:50:32,897 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:50:33,046 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,048 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,050 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,052 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:50:33,057 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:50:33,060 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:51:51,592 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:51:51,593 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:51:51,711 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,713 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,716 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,718 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:51:51,724 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:51:51,728 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:53:41,325 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:53:41,325 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:53:41,326 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:53:41,432 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,434 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,436 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,438 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:53:41,442 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:53:41,445 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:57:21,024 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:57:21,024 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,024 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,024 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,025 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:57:21,133 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,135 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,137 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,139 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:57:21,143 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:57:21,146 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:20,153 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:58:20,153 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:20,153 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:20,153 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:20,267 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,269 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,270 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,273 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:20,277 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:20,280 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:38,617 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:58:38,618 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:38,618 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:38,618 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 19:58:38,771 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 19:58:38,774 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 19:58:38,782 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,784 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,786 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,788 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 19:58:38,793 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 19:58:38,795 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:02:26,121 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:02:26,121 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:02:26,121 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:02:26,121 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:02:26,274 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:02:26,276 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:02:26,284 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:02:26,286 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:02:26,288 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:02:26,291 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:02:26,296 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:02:26,299 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:03:22,171 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:03:22,172 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:03:22,172 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:03:22,172 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:03:22,339 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:03:22,342 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:03:22,351 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:03:22,353 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:03:22,355 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:03:22,357 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:03:22,362 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:03:22,366 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:03:22,373 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:03:22,374 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:03:22,375 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:03:22,376 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:03:22,386 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:03:22,389 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:03:22,395 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:03:22,396 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:03:22,396 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:03:22,397 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:07:46,885 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:46,886 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:07:46,886 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:07:46,886 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:07:47,089 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:47,092 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:07:47,100 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,102 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,104 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,107 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,112 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:07:47,117 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:07:47,127 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:07:47,128 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:07:47,131 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:07:47,132 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:07:47,144 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:07:47,148 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:07:47,157 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:07:47,158 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:07:47,158 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:07:47,159 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:07:47,171 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:07:48,250 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:48,437 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:48,437 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:08:14,638 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:08:14,918 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:08:14,918 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:08:38,954 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:08:39,167 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:08:39,167 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:09:04,185 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:13:35,981 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:35,981 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:13:35,981 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:13:35,981 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:13:36,155 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:36,158 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:13:36,166 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,168 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,169 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,172 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,176 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:13:36,179 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:13:36,187 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:13:36,187 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:13:36,189 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:13:36,190 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:13:36,202 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:13:36,205 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:13:36,210 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:13:36,211 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:13:36,211 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:13:36,212 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:13:36,226 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:13:36,485 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:36,649 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:36,649 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:14:01,373 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:14:01,535 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:14:01,535 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:14:32,448 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:15,053 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:15,063 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:28,722 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:28,722 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:16:28,722 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:16:28,722 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:16:28,870 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:28,872 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:16:28,879 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,882 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,884 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,886 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,890 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:16:28,893 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:16:28,899 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:16:28,900 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:16:28,901 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:16:28,902 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:16:28,910 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:16:28,913 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:16:28,917 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:16:28,918 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:16:28,918 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:16:28,918 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:16:28,931 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:28,939 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:29,087 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:29,247 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:29,247 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:16:53,467 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:16:53,636 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:53,636 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:17:17,176 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:17:17,177 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-10-24 20:17:37,942 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:17:38,118 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:20:53,853 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:20:54,020 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:20:54,021 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:21:19,046 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:21:19,058 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-10-24 20:21:32,620 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:21:32,775 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:21:32,775 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:21:58,092 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:21:58,092 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-10-24 20:29:16,291 - Predictor.py - load_model - ERROR - Error occurred while loading the model: 'str' object has no attribute 'feature_names_in_'
+2023-10-24 20:29:16,296 - Predictor.py - load_model - ERROR - Error occurred while loading the model: 'str' object has no attribute 'feature_names_in_'
+2023-10-24 20:29:16,298 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:29:16,298 - Predictor.py - predict - ERROR - Error occurred while making predictions: must pass an index to rename
+2023-10-24 20:29:16,429 - Predictor.py - load_model - ERROR - Error occurred while loading the model: 'str' object has no attribute 'feature_names_in_'
+2023-10-24 20:29:16,430 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:29:16,430 - Predictor.py - predict - ERROR - Error occurred while making predictions: must pass an index to rename
+2023-10-24 20:29:16,431 - Predictor.py - save_predictions - ERROR - Error occurred while saving the predictions: If using all scalar values, you must pass an index
+2023-10-24 20:29:16,434 - Predictor.py - load_model - ERROR - Model file not found.
+2023-10-24 20:29:16,437 - Predictor.py - load_data - ERROR - Data file not found.
+2023-10-24 20:33:47,968 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:33:47,997 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:33:47,998 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:33:47,999 - Predictor.py - predict - ERROR - Error occurred while making predictions: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- feature1
+- feature2
+Feature names seen at fit time, yet now missing:
+- 0
+- 1
+- 10
+- 2
+- 3
+- ...
+
+2023-10-24 20:33:48,107 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:33:48,108 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:33:48,109 - Predictor.py - predict - ERROR - Error occurred while making predictions: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- feature1
+- feature2
+Feature names seen at fit time, yet now missing:
+- 0
+- 1
+- 10
+- 2
+- 3
+- ...
+
+2023-10-24 20:33:48,109 - Predictor.py - save_predictions - ERROR - Error occurred while saving the predictions: If using all scalar values, you must pass an index
+2023-10-24 20:33:48,112 - Predictor.py - load_model - ERROR - Model file not found.
+2023-10-24 20:33:48,114 - Predictor.py - load_data - ERROR - Data file not found.
+2023-10-24 20:35:35,221 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:35:35,226 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:35:35,260 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:35:35,275 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-10-24 20:35:35,282 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:35:35,314 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:35:35,328 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-10-24 20:35:35,347 - Predictor.py - save_predictions - INFO - Predictions correctly saved.
+2023-10-24 20:35:35,349 - Predictor.py - load_model - ERROR - Model file not found.
+2023-10-24 20:35:35,450 - Predictor.py - load_data - ERROR - Data file not found.
+2023-10-24 20:36:35,545 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:36:35,551 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:36:35,585 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:36:35,599 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-10-24 20:36:35,607 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:36:35,639 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:36:35,653 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-10-24 20:36:35,672 - Predictor.py - save_predictions - INFO - Predictions correctly saved.
+2023-10-24 20:36:49,808 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:36:49,808 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:36:49,808 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:36:49,809 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:36:49,962 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:36:49,965 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:36:49,973 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:36:49,975 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:36:49,977 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:36:49,979 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:36:49,983 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:36:49,986 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:36:49,994 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:36:49,995 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:36:49,996 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:36:49,997 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:36:50,008 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:36:50,012 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:36:50,016 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-22/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:36:50,017 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-22/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:36:50,017 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-22/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:36:50,018 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-22/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:36:50,031 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:36:50,039 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:36:50,205 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:36:50,384 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:36:50,384 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:37:14,425 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:37:14,603 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:37:14,603 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:37:37,190 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:37:37,190 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-10-24 20:37:37,937 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:37:37,942 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:37:37,979 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:37:37,994 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-10-24 20:37:38,000 - Predictor.py - load_model - INFO - Model loaded successfully.
+2023-10-24 20:37:38,033 - Predictor.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:37:38,047 - Predictor.py - predict - INFO - Predictions successfully done.
+2023-10-24 20:37:38,065 - Predictor.py - save_predictions - INFO - Predictions correctly saved.

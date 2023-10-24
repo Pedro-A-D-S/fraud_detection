@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO, filename = 'log/ETL.log', format = '%(as
 
 
 class ETL:
-    def __init__(self, data_file: pd.DataFrame):
+    def __init__(self, data_file: str):
         self.data_file = data_file
         self.train = None
         self.test = None
