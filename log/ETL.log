@@ -140,3 +140,112 @@
 2023-10-24 20:03:22,396 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/X_test.csv
 2023-10-24 20:03:22,396 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/y_train.csv
 2023-10-24 20:03:22,397 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-14/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:07:46,885 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:46,886 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:07:46,886 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:07:46,886 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:07:47,089 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:47,092 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:07:47,100 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,102 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,104 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,107 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:07:47,112 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:07:47,117 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:07:47,127 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:07:47,128 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:07:47,131 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:07:47,132 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:07:47,144 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:07:47,148 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:07:47,157 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:07:47,158 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:07:47,158 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:07:47,159 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-15/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:07:47,171 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:07:48,250 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:48,437 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:07:48,437 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:08:14,638 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:08:14,918 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:08:14,918 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:08:38,954 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:08:39,167 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:08:39,167 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:09:04,185 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:13:35,981 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:35,981 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:13:35,981 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:13:35,981 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:13:36,155 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:36,158 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:13:36,166 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,168 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,169 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,172 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:13:36,176 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:13:36,179 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:13:36,187 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:13:36,187 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:13:36,189 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:13:36,190 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:13:36,202 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:13:36,205 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:13:36,210 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:13:36,211 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:13:36,211 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:13:36,212 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-16/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:13:36,226 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:13:36,485 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:36,649 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:13:36,649 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:14:01,373 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:14:01,535 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:14:01,535 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:14:32,448 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:15,053 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:15,063 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:28,722 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:28,722 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:16:28,722 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:16:28,722 - etl.py - load_data - ERROR - It was not possible to load data correctly.
+2023-10-24 20:16:28,870 - etl.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:28,872 - etl.py - reorder_columns - INFO - Columns reordered successfully.
+2023-10-24 20:16:28,879 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,882 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,884 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,886 - etl.py - split_data - INFO - Data split successfully.
+2023-10-24 20:16:28,890 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:16:28,893 - etl.py - save_data - INFO - Data saved successfully.
+2023-10-24 20:16:28,899 - FeatureEngineering.py - load_data - INFO - Train file loaded successfully.
+2023-10-24 20:16:28,900 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on train file.
+2023-10-24 20:16:28,901 - FeatureEngineering.py - load_data - INFO - Test file loaded successfully.
+2023-10-24 20:16:28,902 - FeatureEngineering.py - load_data - INFO - Train and test defined successfully on test file.
+2023-10-24 20:16:28,910 - FeatureEngineering.py - preprocess_data - INFO - X_train was scaled and encoded correctly.
+2023-10-24 20:16:28,913 - FeatureEngineering.py - preprocess_data - INFO - X_test was scaled and encoded correctly.
+2023-10-24 20:16:28,917 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed training data features saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/X_train.csv
+2023-10-24 20:16:28,918 - FeatureEngineering.py - save_preprocessed_data - INFO - Preprocessed test data features saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/X_test.csv
+2023-10-24 20:16:28,918 - FeatureEngineering.py - save_preprocessed_data - INFO - Training data labels saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/y_train.csv
+2023-10-24 20:16:28,918 - FeatureEngineering.py - save_preprocessed_data - INFO - Test data labels saved to: /tmp/pytest-of-pop/pytest-17/test_save_preprocessed_data0/y_test.csv
+2023-10-24 20:16:28,931 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:28,939 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:16:29,087 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:29,247 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:29,247 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:16:53,467 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:16:53,636 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:16:53,636 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:17:17,176 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:17:17,177 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-10-24 20:17:37,942 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:17:38,118 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:20:53,853 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:20:54,020 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:20:54,021 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:21:19,046 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:21:19,058 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
+2023-10-24 20:21:32,620 - ModelTraining.py - load_config - INFO - Param grid loaded successfully.
+2023-10-24 20:21:32,775 - ModelTraining.py - load_data - INFO - Data loaded successfully.
+2023-10-24 20:21:32,775 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Params loaded successfully.
+2023-10-24 20:21:58,092 - ModelTraining.py - perform_hyperparameter_tuning - INFO - Grid fitted successfully.
+2023-10-24 20:21:58,092 - ModelTraining.py - train_model - INFO - Random Forest fitted successfully.
