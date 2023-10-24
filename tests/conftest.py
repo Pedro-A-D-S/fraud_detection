@@ -27,7 +27,7 @@ def etl_instance_empty_file() -> ETL:
     return ETL(data_file='empty_file.csv')
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture
 def fe_instance(tmp_path) -> FeatureEngineering:
     """Returns an instance of the FeatureEngineering class,
     having been initialized with the given train and test files.
