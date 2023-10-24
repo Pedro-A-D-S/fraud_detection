@@ -6,13 +6,16 @@ from scripts.FeatureEngineering import FeatureEngineering
 from scripts.ModelTraining import ModelTraining
 
 # Use consistent typehints for all parameters and return values
+
+
 @pytest.fixture(scope="session")
 def etl_instance() -> ETL:
     """Returns an instance of the ETL class."""
     return ETL()
 
+
 @pytest.fixture(scope="session")
-def fe_instance(tmp_path: pytest.TempPath) -> FeatureEngineering:
+def fe_instance(tmp_path) -> FeatureEngineering:
     """Returns an instance of the FeatureEngineering class,
     having been initialized with the given train and test files.
 
@@ -54,9 +57,11 @@ def fe_instance(tmp_path: pytest.TempPath) -> FeatureEngineering:
     train_df.to_csv(train_file, index=False)
     test_df.to_csv(test_file, index=False)
 
-    fe = FeatureEngineering(train_file=str(train_file), test_file=str(test_file))
+    fe = FeatureEngineering(train_file=str(train_file),
+                            test_file=str(test_file))
 
     return fe
+
 
 @pytest.fixture(scope="session")
 def model_training_instance() -> ModelTraining:
@@ -78,4 +83,3 @@ def model_training_instance() -> ModelTraining:
     y_test_file = "data/preprocessed/y_test.csv"
 
     return ModelTraining(X_train_file, X_test_file, y_train_file, y_test_file)
-
